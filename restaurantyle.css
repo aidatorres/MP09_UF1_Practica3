@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding: 0;
+    background-image: url("restaurant.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+
+h2 {
+    font-style: oblique;
+    text-align: center;
+    height: 2cm;
+}
+
+.color{
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 100px;
+}
+
+nav {
+    width: 30%;
+    height: 250px;
+    float: left;
+   /* background-color:purple ;*/
+
+}
+
+section {
+    width: 40%;
+    height: 250px;
+    margin-left: 30%;
+   /* background-color: aqua;*/
+}
+
+aside {
+    width: 30%;
+    height: 250px;
+    float: right;
+    margin-top: -250px;
+   /* background-color: seagreen;*/
+}
+
+
+#arti1{
+    margin: 0 auto;
+    width: 5cm;
+    height: auto;
+    background-color: darkgreen;
+    position: relative;
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
+}
+
+#arti2{
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    background-color: darkmagenta;
+    position: absolute;
+    color: dodgerblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid black;
+
+}
+
+#arti3{
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    background-color: darksalmon;
+    position: absolute;
+    left: 60%;
+    color: gold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 2px solid black;
+
+}
+
+.fix {
+    position: fixed;
+}
+
+footer {
+    background-image: linear-gradient(blue, grey);
+    margin-top: 3%;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    background-color: burlywood;
+    box-shadow: cornsilk;
+}
+
+img:hover{
+    border: 3px solid black;
+    transition: all;
+
+}
+
+
+.principal {
+    background-image: url("aside.jpg");
+    height: 350px;
+    width: 350px;
+
+}
+
+
+.secondari {
+    background-color: chocolate;
+    width: 350px;
+    opacity: 0;
+}
+
+.secondari:hover{
+    opacity: 1;
+}
+
+.empresa {
+height: 50px;
+width: 250px;
+}
+
+.ganxo {
+    opacity: 0;
+}
+
+.ganxo:hover {
+    opacity: 1;
+    height: 60px;
+    width: 300px;
+    font-size: 2em;
+    transition: linear;
+}
+
+
+
+
+
+
+
+
+
